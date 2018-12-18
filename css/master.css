@@ -4,6 +4,10 @@ body {
   background-color:
 }
 
+a {
+  text-decoration: none !important
+}
+
 h1 {
   font-size: 3rem;
   margin-top: 40vh;
@@ -12,6 +16,12 @@ h1 {
 
 h2 {
   font-size: 3rem;
+}
+
+#buttons {
+  position: fixed;
+  top: 10px;
+  right: 40px;
 }
 
 #socialmedia {
