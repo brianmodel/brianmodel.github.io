@@ -22,6 +22,7 @@ $(document).ready(function() {
   });
 
   $("#resumebutton").click(function() {
+    console.log('pressed');
     window.open("../resume.pdf");
   });
 })
