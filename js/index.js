@@ -1,4 +1,5 @@
 window.onload = function() {
+  console.log('Different');
   let nameStr = "Hi, I'm Brian Model.";
   for (var i = 0; i < nameStr.length; i++) {
     setTimeout(function() {
