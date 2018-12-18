@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Brian Model</title>
-      <style type="text/css">body{text-align: center; position: relative; background-color:}h1{font-size: 3rem; margin-top: 40vh; font-family: "Courier New", monospace;}h2{font-size: 3rem;}@-webkit-keyframes blink{from{opacity: 0;}50%{opacity: 0;}51%{opacity: 1;}to{opacity: 1;}}@keyframes blink{from{opacity: 0;}50%{opacity: 0;}51%{opacity: 1;}to{opacity: 1;}}#cursor{-webkit-animation: blink 1s linear infinite; animation: blink 1s linear infinite;}</style>
-      <script type="text/javascript">window.onload=function(){let nameStr="Hi, I'm Brian Model.";for (var i=0; i < nameStr.length; i++){setTimeout(function(){document.getElementById('name').textContent=nameStr.substr(0, document.getElementById('name').textContent.length + 1);}, 200 + i * 90);}}</script>
-   </head>
-   <body>
-      <h1><span id="name"></span><span id="cursor">|</span></h1>
-      <h2>¤</h2>
-   </body>
+
+<head>
+  <title>Brian Model</title>
+  <link rel="stylesheet" href="css/master.css">
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+<body>
+  <h1><span id="name"></span><span id="cursor">|</span></h1>
+  <h2>¤</h2>
+  <!-- <span style="font-size: 48px;"> -->
+  <ul id=socialmedia>
+    <li><a class="sociallink" href="https://www.linkedin.com/in/brian-model/"><i class="fab fa-linkedin"></i></li>
+    <li><a class="sociallink" href="https://github.com/brianmodel"><i class="fab fa-github-square"></i></li>
+  </ul>
+  <!-- </span> -->
+
+</body>
+
 </html>

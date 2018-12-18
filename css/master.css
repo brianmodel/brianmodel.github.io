@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  position: relative;
+  background-color:
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 40vh;
+  font-family: "Courier New", monospace;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+#socialmedia {
+  font-size: 48px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#socialmedia li {
+  display: inline;
+}
+
+.sociallink {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  51% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  51% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#cursor {
+  -webkit-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
