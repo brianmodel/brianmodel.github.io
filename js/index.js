@@ -22,6 +22,6 @@ $(document).ready(function() {
   });
 
   $("#resumebutton").click(function() {
-    window.open("resume.pdf");
+    window.open("../resume.pdf");
   });
 })
