@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 #buttons button {
@@ -26,6 +27,31 @@ h2 {
   position: fixed;
   top: 10px;
   right: 40px;
+}
+
+#about p {
+  font-family: "Courier New";
+  font-size: 2rem;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.03);
+  margin-top: 40px;
+  padding-top: 10px;
+}
+
+.info {
+  margin-left: 250px;
+}
+
+.box h2 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.box p {
+  text-align: left;
+  font-size: 20px;
 }
 
 #socialmedia {

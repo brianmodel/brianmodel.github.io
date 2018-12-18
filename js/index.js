@@ -9,15 +9,22 @@ window.onload = function() {
 
 $(document).ready(function() {
 
-  $("#homebutton").click(function() {
-    $('html,body').animate({
-      scrollTop: 0
-    }, 500);
-  });
-
   $("#aboutbutton").click(function() {
     $('html,body').animate({
       scrollTop: $("#about").offset().top
     }, 500);
   });
+
+  $("#resumebutton").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#resume").offset().top
+    }, 500);
+  });
+
+  $("#contactbutton").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#contact").offset().top
+    }, 500);
+  });
+
 })
