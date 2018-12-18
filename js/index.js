@@ -20,4 +20,8 @@ $(document).ready(function() {
       scrollTop: $("#about").offset().top
     }, 500);
   });
+
+  $("#resumebutton").click(function() {
+    window.open("resume.pdf");
+  });
 })
